@@ -47,5 +47,56 @@ main section {
     /* astuce 2 + facile et + utiliser*/
     margin-bottom: 50px;
 }
+/*Formulaire*/
+.signin form {
+    width: 50%;
+    margin: auto;
+}
+.signin form h1 {
+    font-size: 2.3rem;
+    margin: 0;
+}
+.signin form p {
+    color: var(--gray);
+    margin: 0 0 32px 0; /* marge 0 haut 0 droite 32px bas 0 gauche*/
+}
+.signin form label {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+.signin form input {
+    display: block;
+    border: 1px solid var(--gray-light);
+    border-radius: 4px;
+    padding: 12px;          /*12px de marge intérieur sur les 4 côtes*/
+    margin-bottom: 16px;    /*16px marge extérieur en dessous*/
+    width: 100%;
+    box-sizing: border-box; /*re calcule les marges et enlève le padding 12px */
+}
+.signin form button {
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: 4px;
+    padding: 12px 0;
+    border: 0;   /* plus de bordure*/
+    width: 100%;  /* prend la largeur*/
+}
+.signin form a {
+    border: 1px solid var(--gray-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    gap: 10px;          /*ecartement entre deux*/
+    padding: 10px 0;
+    border-radius: 4px;
+    margin-top: 12px;
+}
+.signin form a img {
+    width: 6%;
+} 
 
     
